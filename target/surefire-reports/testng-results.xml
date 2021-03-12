@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="34517" started-at="2021-03-09T22:19:33 EST" finished-at="2021-03-09T22:20:08 EST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="34517" started-at="2021-03-09T22:19:33 EST" finished-at="2021-03-09T22:20:08 EST">
+      <class name="pom.qa.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:pom.qa.hubspot.tests.HomePageTest@4fe3c938]" name="setUP" is-config="true" duration-ms="20183" started-at="2021-03-09T22:19:33 EST" finished-at="2021-03-09T22:19:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getUserName()[pri:0, instance:pom.qa.hubspot.tests.HomePageTest@4fe3c938]" name="getUserName" duration-ms="151" started-at="2021-03-09T22:20:00 EST" finished-at="2021-03-09T22:20:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pom.qa.hubspot.tests.HomePageTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="1344" started-at="2021-03-09T22:20:05 EST" finished-at="2021-03-09T22:20:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pom.qa.hubspot.tests.HomePageTest -->
+      <class name="pom.qa.hubspot.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:pom.qa.hubspot.tests.LoginPageTest@3632be31]" name="setUP" is-config="true" duration-ms="6345" started-at="2021-03-09T22:19:53 EST" finished-at="2021-03-09T22:20:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="VerifyLoginPageTitle()[pri:1, instance:pom.qa.hubspot.tests.LoginPageTest@3632be31]" name="VerifyLoginPageTitle" duration-ms="46" started-at="2021-03-09T22:20:00 EST" finished-at="2021-03-09T22:20:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPageTitle -->
+        <test-method status="PASS" signature="VerifySignupLink()[pri:2, instance:pom.qa.hubspot.tests.LoginPageTest@3632be31]" name="VerifySignupLink" duration-ms="144" started-at="2021-03-09T22:20:00 EST" finished-at="2021-03-09T22:20:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignupLink -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:pom.qa.hubspot.tests.LoginPageTest@3632be31]" name="loginTest" duration-ms="4434" started-at="2021-03-09T22:20:00 EST" finished-at="2021-03-09T22:20:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pom.qa.hubspot.tests.LoginPageTest@3632be31]" name="tearDown" is-config="true" duration-ms="1692" started-at="2021-03-09T22:20:06 EST" finished-at="2021-03-09T22:20:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pom.qa.hubspot.tests.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
